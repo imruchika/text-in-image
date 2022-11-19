@@ -1,0 +1,20 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+.img {
+    background-image: url("red-car.png");
+    width: auto;
+    height: auto;
+    background-position: left;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-clip: text;
+    background-attachment: fixed;
+    background-size: cover;
+    /* overflow: hidden; */
+    overflow-y: visible;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(255, 9, 9, 0);
+}
